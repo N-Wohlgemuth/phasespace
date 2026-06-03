@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@import '../node_modules/@skeletonlabs/skeleton/src/themes/wintry.css';
+@import '../node_modules/@skeletonlabs/skeleton/src/index.css';
+@plugin 'tailwind-scrollbar';
+@import '@skeletonlabs/skeleton/themes/wintry';
+@import '@skeletonlabs/skeleton/themes/cerberus';
+
+.custom-scroll-color-primary-800 {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary-800) var(--color-surface-800);
+}

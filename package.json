@@ -1,0 +1,43 @@
+{
+	"name": "phasespace",
+	"private": true,
+	"version": "0.0.1",
+	"license": "proprietary",
+	"type": "module",
+	"scripts": {
+		"audit-licenses": "node scripts/check-licenses.js",
+		"buildLic": "vite build && npx shx cp LICENSE build/LICENSE && node scripts/generate-licenses.js",
+		"build": "vite build",
+		"dev": "vite dev",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/kit": "^2.50.2",
+		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@tailwindcss/vite": "^4.1.18",
+		"@types/culori": "^4.0.1",
+		"@types/d3": "^7.4.3",
+		"@types/node": "^25.9.1",
+		"shx": "^0.4.0",
+		"svelte": "^5.49.2",
+		"svelte-check": "^4.3.6",
+		"tailwind-scrollbar": "^4.0.2",
+		"tailwindcss": "^4.1.18",
+		"typescript": "^5.9.3",
+		"vite": "^7.3.1"
+	},
+	"dependencies": {
+		"@skeletonlabs/skeleton": "^4.12.0",
+		"@skeletonlabs/skeleton-svelte": "^4.12.0",
+		"chroma-js": "^3.2.0",
+		"culori": "^4.0.2",
+		"d3": "^7.9.0",
+		"effect": "^3.19.17",
+		"license-checker-rseidelsohn": "^4.4.2"
+	}
+}
