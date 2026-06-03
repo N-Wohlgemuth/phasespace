@@ -57,7 +57,7 @@
   class=" bg-surface-950 text-surface-50 overflow-x-hidden"
   style="font-family: 'DM Mono', monospace;"
 >
-  <div class="grid h-[52rem] grid-cols-[320px_1fr] lg:grid-cols-[320px_1fr_280px] grid-rows-[auto_1fr]">
+  <div class="grid h-screen grid-cols-[320px_1fr] lg:grid-cols-[320px_1fr_280px] grid-rows-[auto_1fr]">
 
     <!-- Header spans alle Spalten -->
     <div class="col-span-2 lg:col-span-3">
