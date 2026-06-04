@@ -15,7 +15,7 @@ const require = createRequire(import.meta.url);
 const checker = require('license-checker-rseidelsohn');
 
 const buildDir = path.join(__dirname, '..', 'build');
-const outputPath = path.join(buildDir, 'LICENSES');
+const outputPath = path.join(buildDir, 'LICENSES.txt');
 const rootOutputPath = path.join(__dirname, '..', 'THIRD-PARTY-NOTICES.md');
 console.log(rootOutputPath)
 // Ensure directories exist
@@ -77,7 +77,7 @@ checker.init({
 
   mdOutput += `---\n\n`;
   mdOutput += `The full text of the licenses can be found in the \`node_modules\` directory.\n`;
-  mdOutput += `For the full text of the **Proprietary License** governing this project, please refer to the \`LICENSE\` file in the root directory.\n`;
+  mdOutput += `For the full text of the **Proprietary License** governing this project, please refer to the \`LICENSE.txt\` file in the root directory.\n`;
 
   fs.writeFileSync(rootOutputPath, mdOutput);
   console.log(`✅ Generated ${rootOutputPath}`);

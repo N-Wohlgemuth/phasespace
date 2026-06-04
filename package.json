@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"audit-licenses": "node scripts/check-licenses.js",
-		"buildLic": "vite build && npx shx cp LICENSE build/LICENSE && node scripts/generate-licenses.js",
+		"buildLic": "vite build && npx shx cp LICENSE.txt build/LICENSE.txt && node scripts/generate-licenses.js",
 		"build": "vite build",
 		"dev": "vite dev",
 		"preview": "vite preview",

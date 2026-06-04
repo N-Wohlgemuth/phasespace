@@ -60,11 +60,6 @@
   }
   .accent-link:hover { opacity: 0.7; }
 
-  .divider {
-    border: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
-  }
-
   .mono-sm {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.72rem;

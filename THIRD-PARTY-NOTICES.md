@@ -984,4 +984,4 @@ Copyright © 2026 [Your Name/Company]. All rights reserved.
 ---
 
 The full text of the licenses can be found in the `node_modules` directory.
-For the full text of the **Proprietary License** governing this project, please refer to the `LICENSE` file in the root directory.
+For the full text of the **Proprietary License** governing this project, please refer to the `LICENSE.txt` file in the root directory.

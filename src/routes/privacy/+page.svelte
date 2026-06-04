@@ -3,7 +3,7 @@
   const sections = [
     {
       title: "Allgemeines",
-      content: "Der Schutz Ihrer Privatsphäre ist uns wichtig. Diese Website erhebt, verarbeitet oder speichert keine personenbezogenen Daten, es sei denn, dies ist technisch notwendig für den Betrieb oder Sie übermitteln uns aktiv Daten.",
+      content: "Der Schutz Ihrer Privatsphäre ist mir wichtig. Diese Website erhebt, verarbeitet oder speichert keine personenbezogenen Daten, es sei denn, dies ist technisch notwendig für den Betrieb oder Sie übermitteln mir aktiv Daten.",
       icon: "🛡️"
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       title: "Kontaktmöglichkeit",
-      content: "Bei E-Mail-Kontakt speichern wir Ihre Angaben (E-Mail, ggf. Name) nur zur Bearbeitung Ihrer Anfrage. Eine Weitergabe an Dritte erfolgt nicht.",
+      content: "Bei E-Mail-Kontakt speichern ich Ihre Angaben (E-Mail, ggf. Name) nur zur Bearbeitung Ihrer Anfrage. Eine Weitergabe an Dritte erfolgt nicht.",
       icon: "✉️"
     },
     {
@@ -156,11 +156,6 @@
 
   .stagger-1 { animation-delay: 0.05s; }
   .stagger-2 { animation-delay: 0.12s; }
-  .stagger-3 { animation-delay: 0.19s; }
-  .stagger-4 { animation-delay: 0.26s; }
-  .stagger-5 { animation-delay: 0.33s; }
-  .stagger-6 { animation-delay: 0.40s; }
-  .stagger-7 { animation-delay: 0.47s; }
   .stagger-8 { animation-delay: 0.54s; }
 </style>
 
